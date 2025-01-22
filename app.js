@@ -23,6 +23,9 @@ function agregarAmigo(nombreAmigo) {
     else if(!patternNombre.test(amigo)){
         message("Solo se permiten letras");
     }
+    else if(amigos.includes(amigo.toUpperCase())){
+        message("El amigo ya fue agregado");
+    }
     else {
         // Se limpia el mensaje del sorteo si existe
         messageSorteo.innerHTML !== '' ? messageSorteo.innerHTML = '' : '';
