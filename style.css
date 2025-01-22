@@ -132,11 +132,15 @@ ul {
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
+    max-width: 400px;
+    max-height: 100px; 
+    overflow-y: auto; 
+    padding: 10px; 
 }
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #830117;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -159,4 +163,22 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+#message{
+    color: rgb(12, 87, 34);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+li{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
 }
