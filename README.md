@@ -24,6 +24,7 @@ Este proyecto es una sencilla aplicación web para sortear un "Amigo Secreto". P
 4.  Repite los pasos 2 y 3 para agregar más amigos (al menos dos para poder realizar el sorteo).
 5.  Haz clic en el botón "Sortear amigo" para realizar el sorteo.
 6.  Se mostrará un mensaje con el nombre del amigo secreto sorteado.
+ *  [![DEMO](https://1drv.ms/i/c/67176422d7b19ae5/EYKhLsSzUPlGm5e9Y7FPniYBpiKruWN4QTF_yvVpQi4oFA?e=ECbDvI)](https://1drv.ms/v/c/67176422d7b19ae5/EXHaPRBxNrxLrOAyIjZSG30BPTRNPk3z5Arb8e4B7VMtlA?e=Sgqg7O)
 
 ## Código JavaScript
 
